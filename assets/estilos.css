@@ -1,0 +1,15 @@
+.lienzo {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 30%;
+    width: 500px;
+    height: 500px;
+    background-color: silver;
+} 
+
+.viborita {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: chartreuse;
+}
