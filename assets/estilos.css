@@ -1,15 +1,28 @@
 .lienzo {
     position: absolute;
-    margin-top: 100px;
-    margin-left: 30%;
+    margin-top: 60px;
+    margin-left: 33%;
     width: 500px;
     height: 500px;
-    background-color: silver;
+    background-color: #B9DB00;
 } 
 
 .viborita {
     position: absolute;
     width: 50px;
     height: 50px;
-    background-color: chartreuse;
+    background-color: #8476d0;
+}
+
+button {
+    background-color: #b3abe1;
+    border-width: 0;
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
+    margin-top: 600px;
+    margin-left: 45%
+    font-family: 'Changa', sans-serif;
+    font-weight: 600;
+    color: white;
 }
