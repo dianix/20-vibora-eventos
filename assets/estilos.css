@@ -1,3 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #695b5a;
+    font-family: 'Changa', sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: #FF5C4E;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    height: 30px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+    color: white;
+    letter-spacing: 5px;
+}
+
 .lienzo {
     position: absolute;
     margin-top: 60px;
@@ -15,14 +44,15 @@
 }
 
 button {
-    background-color: #b3abe1;
+    background-color: #5138dd;
     border-width: 0;
     border-radius: 20px;
     width: 100px;
-    padding: 10px;
+    padding: 5px;
     margin-top: 600px;
-    margin-left: 45%
+    margin-left: 45%;
     font-family: 'Changa', sans-serif;
     font-weight: 600;
+    letter-spacing: 3px;
     color: white;
 }

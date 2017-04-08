@@ -9,10 +9,6 @@ var desplazamiento = 50;
 
 
 function moverVibora(event){
-    /*var arriba = 38;
-    var abajo = 40;
-    var izq = 37;
-    var derecha = 39;*/
     switch(event.key){
         case "ArrowUp":
             //console.log(event.key);
@@ -20,7 +16,7 @@ function moverVibora(event){
             if(posicionY < 0){
                 terminarJuego();
             } else {
-                C + "px";
+                vibora.style.marginTop = posicionY + "px";
             }
             break;
         case "ArrowDown":
@@ -62,7 +58,7 @@ function reinicioJuego(){
     posicionX = 0;
     posicionY = 0;
     vibora.style.marginLeft = posicionX;
-    vibora.style.marginLeft = posicionY;
+    vibora.style.marginTop = posicionY;
     window.addEventListener("keydown",moverVibora);
 }
 
